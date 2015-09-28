@@ -1,28 +1,36 @@
-# Usastandards::Rails
+# USA Web Standards, for Rails.
 
 [![Build Status](https://travis-ci.org/moss-rb/usastandards-rails.svg)](https://travis-ci.org/moss-rb/usastandards-rails)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/usastandards/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+Please see the appropriate guide for your environment of choice:
 
-## Installation
+* [Ruby on Rails](#a-ruby-on-rails).
 
-Add this line to your application's Gemfile:
+### a. Ruby on Rails
+
+`usastandards-rails` is easy to drop into Rails with the asset pipeline.
+
+In your Gemfile you need to add the `usastandards-rails` gem.
 
 ```ruby
-gem 'usastandards-rails'
+gem 'usastandards-rails', '~> 3.3.5'
 ```
 
-And then execute:
+`bundle install` and restart your server to make the files available through the pipeline.
 
-    $ bundle
+Import Standards styles in `app/assets/stylesheets/application.css`:
 
-Or install it yourself as:
+```scss
+// "usastandards-fonts" must be imported before "usastandards"
+@import "usa-standards-fonts";
+@import "usa-standards";
 
-    $ gem install usastandards-rails
+Require Standards Javascripts in `app/assets/javascripts/application.js`:
 
-## Usage
-
-TODO: Write usage instructions here
+```js
+//= require jquery
+//= require usa-standards
+```
 
 ## Contributing
 
