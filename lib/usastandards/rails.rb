@@ -1,7 +1,9 @@
 require "usastandards/rails/version"
+require "rails"
 
 module Usastandards
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
