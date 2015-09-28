@@ -21,7 +21,7 @@ gem 'usastandards-rails', '~> 3.3.5'
 Import Standards styles in `app/assets/stylesheets/application.css`:
 
 ```css
-/* "usa-standards-fonts" must be imported before "usastandards" */
+/* "usa-standards-fonts" must be imported before "usa-standards" */
 *= require usa-standards-fonts
 *= require usa-standards
 ```
