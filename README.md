@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/moss-rb/usastandards-rails.svg)](https://travis-ci.org/moss-rb/usastandards-rails)
 
+[![Gem Version](https://badge.fury.io/rb/usastandards-rails.svg)](http://badge.fury.io/rb/usastandards-rails)
+
 Please see the appropriate guide for your environment of choice:
 
 * [Ruby on Rails](#a-ruby-on-rails).
