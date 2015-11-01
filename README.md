@@ -15,7 +15,7 @@ Please see the appropriate guide for your environment of choice:
 In your Gemfile you need to add the `usastandards-rails` gem.
 
 ```ruby
-gem 'usastandards-rails', '~> 3.3.5'
+gem 'usastandards-rails', '~> 0.8.1'
 ```
 
 `bundle install` and restart your server to make the files available through the pipeline.
